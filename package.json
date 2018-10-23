@@ -1,0 +1,21 @@
+{
+  "name": "ctypes",
+  "version": "1.0.0",
+  "description": "ctypes",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "reserved"
+  },
+  "keywords": [
+    "ctypes"
+  ],
+  "author": "wangqj",
+  "license": "MIT",
+  "dependencies": {
+    "jison": "^0.4.18"
+  }
+}
