@@ -1,5 +1,10 @@
-'use struct'
+# ctypes
 
+Ctypes is a library for converting javascript and c data types to each other. It's easy to use because it parses the c code.
+
+## Example
+
+```javascript
 const Ctypes = require('../index')
 
 const ctypes = new Ctypes()
@@ -21,3 +26,6 @@ a.y.$value = 2
 
 console.log(num.$buffer) // <Buffer 7b 00 00 00>
 console.log(a.$buffer) // <Buffer 01 00 00 00 02 00 00 00>
+```
+
+To be continued...

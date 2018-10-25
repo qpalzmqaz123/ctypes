@@ -1,3 +1,5 @@
 'use strict'
 
-require('./lib/ctypes')
+const Ctypes = require('./lib/ctypes')
+
+module.exports = Ctypes;
