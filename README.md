@@ -5,7 +5,7 @@ Ctypes is a library for converting javascript and c data types to each other. It
 ## Example
 
 ```javascript
-const Ctypes = require('../index')
+const Ctypes = require('ctypes')
 
 const ctypes = new Ctypes()
 
